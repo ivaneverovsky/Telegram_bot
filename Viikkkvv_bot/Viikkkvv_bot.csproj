@@ -61,6 +61,8 @@
   <ItemGroup>
     <Compile Include="BotAnswers.cs" />
     <Compile Include="BotManager.cs" />
+    <Compile Include="Data\DBConnection.cs" />
+    <Compile Include="Data\DBService.cs" />
     <Compile Include="Interfaces\ITelegramBotClient.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

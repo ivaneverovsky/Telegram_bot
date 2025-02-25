@@ -4,12 +4,13 @@
     {
         public static string InfoMessage()
         {
-            return string.Format(@"Привет! Этот бот поможет мне лучше узнать о вас, моих любимых подписчиках.
+            return string.Format(@"Привет! Это тестовый бот для сбора данных о моих подписчиках.
 
 Команды:
-/harakiri - отдать мне свои персональные данные, которыми я буду распоряжаться как мне угодно ха-ха.
-
-P.S. Пока на этом всё, больше я команд не придумал.");
+/share - поделиться со мной своими персональными данными.
+/list - посмотреть данные моих подписчиков.
+/delete - удалить все данные.
+");
         }
 
         public static string Harakiri() => $"Сейчас я попрошу ввести ваши данные.";
@@ -18,7 +19,9 @@ P.S. Пока на этом всё, больше я команд не приду
         public static string BirthDate() => $"Введите вашу дату рождения в формате ДД.ММ.ГГГГ";
         public static string PhoneNumber() => $"Введите ваш номер телефона в международном формате. Пример: +79991112233";
         public static string ThankYou() => $"Спасибо! Ваши данные были успешно записаны.";
-        public static string SubscribeChannel() => $"Пожалуйста, подпишитесь на канал";
-        public static string Subscribed() => $"От души, дядь";
+        public static string SubList() => $"Данные подписчиков";
+        public static string Deleted() => $"Данные подписчиков удалены";
+        //public static string SubscribeChannel() => $"Пожалуйста, подпишитесь на канал";
+        //public static string Subscribed() => $"От души, дядь";
     }
 }

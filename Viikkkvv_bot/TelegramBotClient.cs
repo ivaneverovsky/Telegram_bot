@@ -119,7 +119,7 @@ namespace Viikkkvv_bot
             {
                 parameters.Clear();
                 parameters.Add("callback_query_id", content);
-                parameters.Add("text", "пук");
+                parameters.Add("text", "инфо");
                 
             }
 
